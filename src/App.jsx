@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <TimerInput/>
+      <TimerInput onchange={() => {
+        console.log("Input changed");
+      }}/>
     </>
   )
 
